@@ -1,6 +1,6 @@
-from src.package1.module1 import print_hello_1
-from src.package2.module2 import print_hello_2, make_dataframe
-from src.package1.module1 import data_dict
+from dockertutorial.package1.module1 import print_hello_1
+from dockertutorial.package2.module2 import print_hello_2, make_dataframe
+from dockertutorial.package1.module1 import data_dict
 
 print("hello Docker, this is app1.py")
 
